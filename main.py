@@ -10,7 +10,6 @@ from modules.load import extract_n_pickle_raw_data, load_data
 from modules.data_preparation import prepare_data
 from modules.data_preparation import preprocess_ml
 from modules.model_handlers import high_level_model_handler
-from modules.modelers import post_model_sparse_modeler
 
 tqdm.pandas()
 
